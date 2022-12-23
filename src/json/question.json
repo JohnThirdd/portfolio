@@ -1,0 +1,515 @@
+{
+    "question": {
+        "0_quest":{
+            "type": "classic",
+            "text": "Вы уже знаете чего хотите?",
+            "buttons": [
+                {
+                    "text": "Да, знаю",
+                    "value": "",
+                    "next_quest": "22_quest"
+                },
+                {
+                    "text": "Нет, помогите сформулировать",
+                    "value": "",
+                    "next_quest": "1_quest"
+                }
+            ],
+            "meta_buttons": [],
+            "main_img": "like",
+            "meta_img": []
+        },
+        "1_quest": {
+            "type": "classic",
+            "text": "Вы придумали идею сайта или презентации?",
+            "buttons": [
+                {
+                    "text": "Презентации",
+                    "value": "",
+                    "next_quest": "2_quest"
+                },
+                {
+                    "text": "Сайта",
+                    "value": "",
+                    "next_quest": "4_quest"
+                }
+            ],
+            "meta_buttons": [],
+            "main_img": "like",
+            "meta_img": []
+        },
+        "2_quest": {
+            "type": "classic",
+            "text": "Для чего ваша презентация?",
+            "buttons": [
+                {
+                    "text": "Для выступления",
+                    "value": "",
+                    "next_quest": "3_quest"
+                },
+                {
+                    "text": "Для чтения",
+                    "value": "",
+                    "next_quest": "11_quest"
+                }
+            ],
+            "meta_buttons": [],
+            "main_img": "sobaka",
+            "meta_img": []
+        },
+        "3_quest": {
+            "type":"soloInput",
+            "text": "Сколько времени дается на выступление?",
+            "input_text": "Введите время",
+            "next_quest": "11_quest",
+            "meta_buttons": [],
+            "main_img": "timer",
+            "meta_img": []
+        },
+        "4_quest": {
+            "type": "classic",
+            "text": "Для чего ваш сайт?",
+            "buttons": [
+                {
+                    "text": "Чтобы продать товар или услугу",
+                    "value": "",
+                    "next_quest": "5_quest"
+                },
+                {
+                    "text": "Чтобы проинформировать о чем-то",
+                    "value": "",
+                    "next_quest": "6_quest"
+                }
+            ],
+            "meta_buttons": [],
+            "main_img": "computer",
+            "meta_img": []
+        },
+        "5_quest": {
+            "type": "multiInput",
+            "text": "Кто ваш потенциальный клиент?",
+            "input_text": "Введите категорию",
+            "next_quest": "7_quest",
+            "add_text": "+ Добавить еще плоле",
+            "meta_buttons": [
+                {
+                    "text": "Я не знаю",
+                    "value": "",
+                    "next_quest": "7_quest"
+                }
+            ],
+            "main_img": "purpose",
+            "meta_img": []
+        },
+        "6_quest": {
+            "type": "multiInput",
+            "text": "Кого нужно проинформировать?",
+            "input_text": "Введите категорию",
+            "next_quest": "7_quest",
+            "add_text": "+ Добавить еще плоле",
+            "meta_buttons": [
+                {
+                    "text": "Не могу сформулировать",
+                    "value": "",
+                    "next_quest": "7_quest"
+                }
+            ],
+            "main_img": "purpose",
+            "meta_img": []
+        },
+        "7_quest": {
+            "type": "multiInput",
+            "text": "Вы знаете своих конкурентов?",
+            "input_text": "Введите имя конкурента",
+            "next_quest": "9_quest",
+            "add_text": "+ Добавить еще плоле",
+            "meta_buttons": [
+                {
+                    "text": "Хочу что бы вы проанализировали сами",
+                    "value": "",
+                    "next_quest": "8_quest"
+                }
+            ],
+            "main_img": "magnifier",
+            "meta_img": []
+        },
+        "8_quest": {
+            "type":"soloInput",
+            "text": "Опишите вид вашей деятельности",
+            "input_text": "Введите текст",
+            "next_quest": "9_quest",
+            "meta_buttons": [],
+            "main_img": "folder",
+            "meta_img": []
+        },
+        "9_quest": {
+            "type": "multiInput",
+            "text": "Вы знаете сайты которые нравятся вам по дизайну?",
+            "input_text": "Введите ссылку",
+            "next_quest": "10_quest",
+            "add_text": "+ Добавить еще плоле",
+            "meta_buttons": [
+                {
+                    "text": "Не знаю",
+                    "value": "",
+                    "next_quest": "10_quest"
+                }
+            ],
+            "main_img": "brush",
+            "meta_img": []
+        },
+        "10_quest": {
+            "type": "classic",
+            "text": "Нужна ли мобильная версия?",
+            "buttons": [
+                {
+                    "text": "Да",
+                    "value": "",
+                    "next_quest": "11_quest"
+                },
+                {
+                    "text": "Нет",
+                    "value": "",
+                    "next_quest": "11_quest"
+                }
+            ],
+            "meta_buttons": [],
+            "main_img": "smartphone",
+            "meta_img": []
+        },
+        "11_quest": {
+            "type": "classic",
+            "text": "У вас есть логотип?",
+            "buttons": [
+                {
+                    "text": "Да",
+                    "value": "",
+                    "next_quest": "12_quest"
+                },
+                {
+                    "text": "Нет",
+                    "value": "",
+                    "next_quest": "13_quest"
+                }
+            ],
+            "meta_buttons": [],
+            "main_img": "medal",
+            "meta_img": []
+        },
+        "12_quest": {
+            "type": "classic",
+            "text": "Есть ли в векторном формате?",
+            "buttons": [
+                {
+                    "text": "Да",
+                    "value": "",
+                    "next_quest": "14_quest"
+                },
+                {
+                    "text": "Нет",
+                    "value": "",
+                    "next_quest": "14_quest"
+                }
+            ],
+            "meta_buttons": [
+                {
+                    "text": "Не знаю",
+                    "value": "",
+                    "next_quest": "14_quest"
+                }
+            ],
+            "main_img": "colors",
+            "meta_img": []
+        },
+        "13_quest": {
+            "type": "classic",
+            "text": "А хотите?",
+            "buttons": [
+                {
+                    "text": "Да",
+                    "value": "",
+                    "next_quest": "14_quest"
+                },
+                {
+                    "text": "Нет",
+                    "value": "",
+                    "next_quest": "14_quest"
+                }
+            ],
+            "meta_buttons": [],
+            "main_img": "colors",
+            "meta_img": []
+        },
+        "14_quest": {
+            "type": "classic",
+            "text": "У вас есть фирменный стиль?",
+            "buttons": [
+                {
+                    "text": "Да",
+                    "value": "",
+                    "next_quest": "15_quest"
+                },
+                {
+                    "text": "Нет",
+                    "value": "",
+                    "next_quest": "15_quest"
+                }
+            ],
+            "meta_buttons": [],
+            "main_img": "image",
+            "meta_img": []
+        },
+        "15_quest": {
+            "type":"color",
+            "text":"Выберите цвет который вам нравится больше всего",
+            "main_img": "colors",
+            "next_quest": "16_quest"
+        },
+        "16_quest": {
+            "type": "classic",
+            "text": "Выберите то что вам нравится больше всего",
+            "buttons": [
+                {
+                    "text": "А",
+                    "value": "без засечек",
+                    "next_quest": "17_quest"
+                },
+                {
+                    "text": "Б",
+                    "value": "с засечками",
+                    "next_quest": "17_quest"
+                }
+            ],
+            "meta_buttons": [],
+            "main_img": "text",
+            "meta_img": [
+                "sans_serif",
+                "with_serifs"
+            ]
+        },
+        "17_quest": {
+            "type": "classic",
+            "text": "Выберите то что вам нравится больше всего",
+            "buttons": [
+                {
+                    "text": "А",
+                    "value": "острые углы",
+                    "next_quest": "18_quest"
+                },
+                {
+                    "text": "Б",
+                    "value": "слегка закругленные",
+                    "next_quest": "18_quest"
+                },
+                {
+                    "text": "В",
+                    "value": "закругленные",
+                    "next_quest": "18_quest"
+                }
+            ],
+            "meta_buttons": [],
+            "main_img": "coin",
+            "meta_img": [
+                "border_none",
+                "border_simple",
+                "border_hard"
+            ]
+        },
+        "18_quest": {
+            "type": "classic",
+            "text": "Выберите то что вам нравится больше всего",
+            "buttons": [
+                {
+                    "text": "А",
+                    "value": "без тени",
+                    "next_quest": "19_quest"
+                },
+                {
+                    "text": "Б",
+                    "value": "с тенью",
+                    "next_quest": "19_quest"
+                }
+            ],
+            "meta_buttons": [],
+            "main_img": "sun",
+            "meta_img": [
+                "shadow_off",
+                "shadow_on"
+            ]
+        },
+        "19_quest": {
+            "type": "classic",
+            "text": "Выберите то что вам нравится больше всего",
+            "buttons": [
+                {
+                    "text": "А",
+                    "value": "белый без паттерна",
+                    "next_quest": "20_quest"
+                },
+                {
+                    "text": "Б",
+                    "value": "белый с паттерном",
+                    "next_quest": "20_quest"
+                },
+                {
+                    "text": "В",
+                    "value": "светлый без паттерна",
+                    "next_quest": "20_quest"
+                },
+                {
+                    "text": "Г",
+                    "value": "светлый с паттерном",
+                    "next_quest": "20_quest"
+                },
+                {
+                    "text": "Д",
+                    "value": "цветной без паттерна",
+                    "next_quest": "20_quest"
+                },
+                {
+                    "text": "Е",
+                    "value": "цветной с паттерном",
+                    "next_quest": "20_quest"
+                }
+            ],
+            "meta_buttons": [],
+            "main_img": "roller",
+            "meta_img": [
+                "bg_white",
+                "bg_whitePattern",
+                "bg_light",
+                "bg_lightPattern",
+                "bg_color",
+                "bg_colorPattern"
+            ]
+        },
+        "20_quest": {
+            "type": "scroll",
+            "min": 1000,
+            "max": 100000,
+            "text": "Какую сумму вы готовы вложить на заказ?",
+            "text_summation": "after",
+            "button_text": "Готов вложить ",
+            "next_quest": "21_quest",
+            "meta_buttons": [
+                {
+                    "text": "Готов больше",
+                    "value": "",
+                    "next_quest": "21_quest"
+                }
+            ],
+            "main_img": "dollar",
+            "meta_img": []
+        },
+        "21_quest": {
+            "type":"soloInput",
+            "text": "Может вы хотите что-то дополнить?",
+            "input_text": "Введите текст",
+            "next_quest": "22_quest",
+            "meta_buttons": [
+                {
+                    "text": "Не хочу",
+                    "value": "",
+                    "next_quest": "22_quest"
+                }
+            ],
+            "main_img": "stationery_button",
+            "meta_img": []
+        },
+        "22_quest": {
+            "type":"soloInput",
+            "text": "Давайте познакомимся",
+            "input_text": "Введите имя",
+            "next_quest": "23_quest",
+            "meta_buttons": [],
+            "main_img": "profile",
+            "meta_img": []
+        },
+        "23_quest": {
+            "type": "classic",
+            "text": "Как с вами связаться?",
+            "buttons": [
+                {
+                    "text": "По телефону",
+                    "value": "",
+                    "next_quest": "24_quest"
+                },
+                {
+                    "text": "По почте",
+                    "value": "",
+                    "next_quest": "25_quest"
+                }
+            ],
+            "meta_buttons": [],
+            "main_img": "chat",
+            "meta_img": []
+        },
+        "24_quest": {
+            "type":"soloInput",
+            "text": "По какому номеру",
+            "input_text": "Введите телефон",
+            "next_quest": "26_quest",
+            "meta_buttons": [],
+            "main_img": "phone",
+            "meta_img": []
+        },
+        "25_quest": {
+            "type":"soloInput",
+            "text": "По какой почте?",
+            "input_text": "Введите email",
+            "next_quest": "29_quest",
+            "meta_buttons": [],
+            "main_img": "letter",
+            "meta_img": []
+        },
+        "26_quest": {
+            "type": "classic",
+            "text": "Как c вами будет удобней связаться?",
+            "buttons": [
+                {
+                    "text": "Позвонить",
+                    "value": "",
+                    "next_quest": "27_quest"
+                },
+                {
+                    "text": "Написать в Whats App",
+                    "value": "",
+                    "next_quest": "27_quest"
+                },
+                {
+                    "text": "Написать в Telegram",
+                    "value": "",
+                    "next_quest": "27_quest"
+                }
+            ],
+            "meta_buttons": [],
+            "main_img": "coffie",
+            "meta_img": []
+        },
+        "27_quest": {
+            "type":"soloInput",
+            "text": "В какое время вам будет удобно созвониться?",
+            "input_text": "Введите время",
+            "next_quest": "28_quest",
+            "meta_buttons": [],
+            "main_img": "clock",
+            "meta_img": []
+        },
+        "28_quest": {
+            "type": "finish",
+            "header_text": "Договорились!",
+            "regular_text": "Скоро мы с вами свяжемся и начнем работать ;)",
+            "meta_text":"",
+            "main_img": "heart",
+            "button_text": "Спасибо"
+        },
+        "29_quest": {
+            "type": "finish",
+            "header_text": "Договорились!",
+            "regular_text": "Скоро мы с вами свяжемся и начнем работать ;)",
+            "meta_text":"P.S Не забывайте проверять почту",
+            "main_img": "heart",
+            "button_text": "Спасибо"
+        }
+    }
+}

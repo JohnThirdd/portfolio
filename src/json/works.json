@@ -1,0 +1,109 @@
+{
+    "works": [
+        {
+            "header": "ЦОК НТИ",
+            "regular": "Разработка группу лендингов на Тильде под курсы",
+            "isYellow": false,
+            "img": "COK",
+            "pdf": "COKZoom",
+            "imgStyle": {
+                "position": "absolute",
+                "width": "495px",
+                "right": "1px",
+                "flex": "none",
+                "order": "1",
+                "flexGrow": "0",
+                "zIndex": "1"
+              },
+            "hashtags":[
+                "Дизайн",
+                "Верстка"
+            ],
+            "id": 0
+        },
+        {
+            "header": "Надежная правовая защита",
+            "regular": "Сайт форум для юридической фирмы",
+            "isYellow": true,
+            "img": "urist",
+            "pdf": "urist",
+            "imgStyle": {
+                "position": "absolute",
+                "width": "575px",
+                "right": "-67px",
+                "top": "-56px",
+                "flex": "none",
+                "order": "2",
+                "flexGrow": "0"
+            },
+            "hashtags":[
+                "Дизайн",
+                "Верстка"
+            ],
+            "id": 1
+        },
+        {
+            "header": "Сознание искусственного интеллекта",
+            "regular": "Разработка презентации на тему сознание искусственного интелекта",
+            "isYellow": false,
+            "img": "soznanie",
+            "pdf": "soznanie",
+            "imgStyle": {
+                "position": "absolute",
+                "width": "495px",
+                "right": "-43px",
+                "top": "-100px",
+                "transform": "rotate(5.23deg)",
+                "flex": "none",
+                "order": "2",
+                "flexGrow": "0"
+            },
+            "hashtags":[
+                "Дизайн",
+                "Презентация"
+            ],
+            "id": 2
+        },
+        {
+            "header": "Выпускная кваликационная работа",
+            "regular": "Презентация для ВКР по разработке программного обеспечения",
+            "isYellow": false,
+            "img": "diplom",
+            "pdf": "diplom",
+            "imgStyle": {
+                "position": "absolute",
+                "width": "484px",
+                "right": "-65px",
+                "top": "20px",
+                "flex": "0 0 auto",
+                "order": "2"
+            },
+            "hashtags":[
+                "Дизайн",
+                "Презентация"
+            ],
+            "id": 3
+        },
+        {
+            "header": "Сервис бронирования Innozapis",
+            "regular": "Дизайн основных страниц для сервиса бронирования Innozapis",
+            "isYellow": true,
+            "img": "Innozapis",
+            "pdf": "Innozapis",
+            "imgStyle": {
+                "position": "absolute",
+                "width": "544px",
+                "right": "-65px",
+                "transform": "rotate(2deg)",
+                "top": "20px",
+                "flex": "0 0 auto",
+                "order": "2"
+            },
+            "hashtags":[
+                "Дизайн",
+                "Веб-приложение"
+            ],
+            "id": 4
+        }
+    ]
+}
